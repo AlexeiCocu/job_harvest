@@ -1,0 +1,5 @@
+#-- in your project root folder
+RewriteEngine On
+
+#----start laravel project from root folder automatically, not from public
+RewriteRule (.*) /public/$1 [L]
